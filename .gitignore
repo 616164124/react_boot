@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.idea
+react_boot.iml
 # testing
 /coverage
 
