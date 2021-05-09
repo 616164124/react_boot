@@ -1,3 +1,8 @@
 #css01{
     background-color: rgb(170, 179, 37);
 }
+#image{
+    height: 400px;
+    width: 400px;
+    background-image: url('../../image/1.jpeg');
+}
