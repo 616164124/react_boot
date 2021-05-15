@@ -1,18 +1,17 @@
 import React, { Component } from 'react'
 
 export default class Day03 extends Component {
-    constructor(){
+    constructor() {
         super();
-        this.setState={
+        this.setState = {
             date: new Date(),
             name: "才"
         };
     }
-   
     render() {
         return (
             <div>
-                {this.setState.date.toLocaleTimeString()}
+                {this.setState.date.toLocaleDateString()}
                 {this.setState.name}
             </div>
         )
