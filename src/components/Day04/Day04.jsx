@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import { Menu, Icon } from 'antd'
+import { Menu } from 'antd'
 
 //axios官网 还有测试需要配合http://mock-api.com/ 来模拟  http://www.axios-js.com/zh-cn/docs
 export default class Day04 extends Component {
