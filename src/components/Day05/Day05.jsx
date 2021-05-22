@@ -6,7 +6,7 @@ export default class Day05 extends Component {
         super()
         this.state = {
             sum: 0,
-            list:""
+            list: ""
         }
     }
     handleclick = () => {
@@ -15,16 +15,17 @@ export default class Day05 extends Component {
                 sum: this.state.sum + 1
             })
     }
-    handleclickOne=(e)=>{
-        console.log("===============>"+e)
+    handleclickOne = (e) => {
+        console.log("===============>" + e)
     }
     render() {
         return (
             <div>
                 <button onClick={this.handleclick}>按钮1</button>
                 <h5>{this.state.sum}</h5>
-                <button onClick= {()=>{this.handleclickOne("8889879")}}>按钮2</button>
-                <Day05s01/>
+                <button onClick={() => { this.handleclickOne("8889879") }}>按钮2</button>
+                <div id="color" />
+                <Day05s01 />
             </div>
         )
     }
