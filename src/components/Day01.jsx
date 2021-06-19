@@ -9,7 +9,7 @@ class Day01 extends Component {
         let first = "nihao";
         return (
             <div>
-                <div>{first}<br/></div>
+                <div>{first}</div>
             </div>
         );
     }

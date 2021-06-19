@@ -7,7 +7,7 @@ export default class Day02s01 extends Component {
         console.log(222222);
     }
 
-    submit(e) {
+    submit1(e) {
         console.log("11111");
         console.log(e);
     }
@@ -19,7 +19,7 @@ export default class Day02s01 extends Component {
         return (
             <>
                 <div id="image" />
-                <button onClick={this.submit} >按钮1</button>
+                <button onClick={this.submit1} >按钮1</button>
                 {/* 键盘按键触发 */}
                 <input onKeyUp={this.onKeyDown}></input>
             </>)
